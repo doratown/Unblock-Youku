@@ -1,6 +1,6 @@
-var unblock_youku = {};  // namespace
-unblock_youku.ip_addr  = "220.181.111.";
-unblock_youku.ip_addr += Math.floor(Math.random() * 254 + 1); // 1 ~ 254
+var unblock_youku_lite = {};  // namespace
+unblock_youku_lite.ip_addr  = "220.181.111.";
+unblock_youku_lite.ip_addr += Math.floor(Math.random() * 254 + 1); // 1 ~ 254
 console.log('faked ip addr: ' + unblock_youku.ip_addr);
 
 chrome.webRequest.onBeforeSendHeaders.addListener(
@@ -8,7 +8,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
     function(details) {
         details.requestHeaders.push({
             name: "X-Forwarded-For",
-            value: unblock_youku.ip_addr
+            value: unblock_youku_lite.ip_addr
         });
 
         return {requestHeaders: details.requestHeaders};
