@@ -1,10 +1,12 @@
-# Unblock Youku
+# Unblock Youku Lite
 
-A Chrome extension for browsing Youku/Tudou/Xiami/Ku6/Xunlei online videos/audios from overseas, without proxy!
+A lite version of the Chrome extension [Unblock Youku](http://bit.ly/unblock-youku)
+
+This lite version removes the proxy API requirement of the full version, in order to avoid conflicts with other proxy settings. But in this case it cannot bypass the geo-location constraints of many websites, and may be totally ineffective in some regions such as Hong Kong.
 
 ### Install
 
-You can find this extension on Chrome Web Store at http://bit.ly/unblock-youku
+You can find this extension on Chrome Web Store at
 
 ### License
 
