@@ -12,7 +12,7 @@ You can find this extension on Chrome Web Store at
 
 Source code is released under MIT license
 
-    Copyright (C) 2012 Bo Zhu http://fun.bozhu.me
+    Copyright (C) 2012 Bo Zhu http://zhuzhu.org
 
     Permission is hereby granted, free of charge, to any person obtaining a
     copy of this software and associated documentation files (the "Software"),
